@@ -4,11 +4,11 @@
                   <div class="l-cols--footerNavigation">
                     <ul class="l-cols--footerNavigation__items">
                       <li class="l-cols--footerNavigation__item">
-                        <div class="o-action--footerNavigation">
+                        <span class="o-action--footerNavigation">
                           <a href="" class="o-action--footerNavigation__item">
                             ショップ情報
                           </a>
-                        </div>
+                        </span>
                       </li>
                       <li class="l-cols--footerNavigation__item">
                         <div class="o-action--footerNavigation">

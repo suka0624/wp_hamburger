@@ -367,9 +367,6 @@ a:active {
     margin: 0 0.5em; }
 
 /* Object */
-.o-action--footerNavigation {
-  display: inline; }
-
 .o-label--copyright {
   display: flex;
   justify-content: center; }
