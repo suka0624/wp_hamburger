@@ -7,10 +7,12 @@
         }
     }
     &--footer {
-        padding: 20px 0;
+        padding: 0 0;
+        background-color: $bg-brown;
         & &__body {
             margin: 0 auto;
             height: 100%;
+            color: $font-white;
         }
     }
 }

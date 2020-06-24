@@ -1,7 +1,7 @@
 /* Core */
 
-@import "./_core/normalize";
 @import "./_core/variables";
+@import "./_core/normalize";
 
 /* Foundation */
 
@@ -16,5 +16,7 @@
 
 /* Object */
 
+@import "./object/action/action";
+@import "./object/label/label";
 
 /* Utility */
