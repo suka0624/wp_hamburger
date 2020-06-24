@@ -1,7 +1,7 @@
             <footer class="footer">
               <section class="f-section--footer">
                 <div class="f-section--footer__body">
-                  <div class="l-cols--footerNavigation">
+                  <nav class="l-cols--footerNavigation">
                     <ul class="l-cols--footerNavigation__items">
                       <li class="l-cols--footerNavigation__item">
                         <span class="o-action--footerNavigation">
@@ -18,7 +18,7 @@
                         </div>
                       </li>
                     </ul>
-                  </div>
+                  </nav>
                   <div class="o-label--copyright">
                     <p class="o-lebel--copyright__item">
                       <small class="small">Copyright: RaiseTech</small>

@@ -11,5 +11,5 @@ gulp.task('sass', function() {
             }),
             ioutputStyle: 'expanded'
         }))
-        .pipe(gulp.dest('./asset/css/'));
+        .pipe(gulp.dest('./asset/css'));
 })
