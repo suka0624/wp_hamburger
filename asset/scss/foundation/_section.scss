@@ -1,0 +1,16 @@
+.f-section {
+    &--header {
+        padding: 20px 0;
+        & &__body {
+            margin: 0 auto;
+            height: 100%;
+        }
+    }
+    &--footer {
+        padding: 20px 0;
+        & &__body {
+            margin: 0 auto;
+            height: 100%;
+        }
+    }
+}
