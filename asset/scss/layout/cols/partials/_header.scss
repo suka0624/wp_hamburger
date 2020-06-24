@@ -6,5 +6,13 @@
     & &__col {
         &.is-logo {}
         &.is-search {}
+        &.is-menu {
+            a:link,
+            a:visited,
+            a:hover,
+            a:active {
+                color: $font-gray;
+            }
+        }
     }
 }

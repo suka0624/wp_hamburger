@@ -16,10 +16,29 @@
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.drawer').drawer();
+        });
+    </script>
+    <script>
+      const elms = document.querySelectorAll(".elements");
+      let index;
+      elms.forEach((elm) => {
+        elm.addEventListener("click", () => {
+          index = [].slice.call(elms).indexOf(elm);
+        });
+      });    
+    </script>
     <?php wp_head(); ?>
   </head>
 
-  <body <?php body_class() ?>>
+  <body <?php //body_class() ?> class="drawer drawer--right">
 
     <?php wp_body_open() ?>
 
@@ -40,6 +59,9 @@
                       </div>
                       <div class="l-cols--header__col is-search">
                         <?php get_search_form(); ?>
+                      </div>
+                      <div class="l-cols--header__col is-menu">
+                        <?php get_sidebar(); ?>
                       </div>
                     </div>
                   </div>
