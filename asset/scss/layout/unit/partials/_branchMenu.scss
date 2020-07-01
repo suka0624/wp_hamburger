@@ -1,0 +1,25 @@
+&--branchMenu {
+    height: 681px;
+    position: relative;
+    font-size: 24pt;
+    & &__header {
+        position: absolute;
+        left: 30px;
+        z-index: 51;
+    }
+    & &__image {
+        position: absolute;
+        max-width: 100%;
+        z-index: 50;
+        object-fit: cover;
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+    & &__description {
+        position: absolute;
+        top: 280px;
+        z-index: 51;
+    }
+}
