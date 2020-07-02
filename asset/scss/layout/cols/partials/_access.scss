@@ -1,0 +1,31 @@
+&--access {
+    height: 691px;
+    position: relative;
+    color: $font-white;
+    background-color: $bg-brack;
+    opacity: 0.8;
+    & &__col {
+        &.is-headline {
+            position: absolute;
+            top: 15px;
+            left: 45px;
+            font-size: 24pt;
+            z-index: 51;
+        }
+        &.is-detail {
+            position: absolute;
+            padding: 0 50px;
+            top: 100px;
+            z-index: 51;
+        }
+        &.is-image {
+            position: absolute;
+            max-width: 100%;
+            z-index: 50;
+            img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

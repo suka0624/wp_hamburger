@@ -1,5 +1,5 @@
 &--branchMenu {
-    height: 681px;
+    height: 620px;
     position: relative;
     font-size: 24pt;
     & &__header {
@@ -11,7 +11,6 @@
         position: absolute;
         max-width: 100%;
         z-index: 50;
-        object-fit: cover;
         img {
             max-width: 100%;
             object-fit: cover;
